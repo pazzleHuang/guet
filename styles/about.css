@@ -1,0 +1,120 @@
+/*about.css*/
+.main { min-height: 850px !important; }
+#content { height:870px !important; }
+#content .container { height: 850px !important; }
+.side-cont {  }
+
+.clear {  clear: both; float: none; height: 0; overflow: hidden; text-indent: 0;  }
+
+/*企业简介*/
+.blocktext {
+	width: 100%;
+	float: left;
+	height: 320px;
+	1background-color: #eef;
+}
+blockquote {
+	float: left;
+	padding-top: 25px;
+	width: 545px;
+	height: auto;
+}
+.blocktext p {
+	padding: 0;
+}
+.blocktext .quot {            /*双引号*/
+	position: relative;
+	font-family: Impact ; 
+	font-size: 62px;
+	color: #F9B103;
+	z-index: 300;
+}
+.blocktext .left-quot {	
+	top: 25px;
+	left: 10px;
+	float: left;
+}
+.blocktext .right-quot {
+	float: right;
+	top: 25px;
+	left: 20px;
+}
+.blocktext img {
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	width: 260px;
+	height: 234px;
+	border-radius: 20px;
+}
+.ehit-show {
+	width: 884px;
+	height: 580px;
+	margin-top: 20px;
+	padding: 0;
+	/*background-image: url(../images/2_01.jpg);*/
+	overflow: hidden;
+}
+.ehit-height {
+	margin-left: 25px;
+	margin-top: -10px;
+	float: left;
+	width: 250px;
+	height: 500px;
+}
+.ehit-height img {
+	float: left;
+	margin-bottom: 10px;
+}
+
+/*核心理念*/
+.block-box { padding: 10px 45px 0; height: 250px; text-indent: 0; }
+.block { float: left;text-indent: 0; display: block; width: 160px; height: 80px;  background-color:#1D78B5; line-height: 80px; text-align: center; }
+.fontText { font-size: 16px; color: #fff; font-weight: 700; }
+.style1{ border-bottom-left-radius: 20px; border-top-right-radius: 20px; }
+.style2{ border-radius: 10px; background-color: #3B9DA1; }
+.order-text1 { float: left; margin-top: 15px; width: 160px; height: 100px; text-align: center; border-left: 1px solid #C33A3A; }
+.first-text { border-left:none; }
+
+.num-box { position: relative; padding: 10px 45px 0; text-indent: 0; }
+.numbg { position: absolute; width: 80px; height: 60px; border: 3px solid #1D78B5;  }
+.numbg1 { left: 70px; }
+.numbg2 { top: 165px; right: 70px; }
+.numbg3 { top: 310px; left: 70px; }
+
+.num { position: absolute; background: #fff; display: block;width: 65px; height: 65px; line-height: 45px; font-size: 30px; font-weight: bold; text-align: center;}
+.num1 { top: -10px; }
+.num2 { top: 150px; right: 50px; }
+.num3 { top: 290px; }
+
+.num-title { position: absolute;  width: 100px; height: 120px; line-height: 90px; background-color: #F9B103; text-align: center; font-size: 16px; font-weight: 700; }
+.title1 { top: 0; left: 135px; }
+.title2 { top: 150px; right: 140px;  }
+.title3 { top: 290px; left: 135px; height: 140px; }
+
+.num-text { position: absolute;  }
+.text1 { left: 260px; }
+.text2 { top: 160px; right: 260px; text-align: right; }
+.text3 { top: 300px; left: 260px; }
+
+/*公司荣誉*/
+.honor {
+	margin-top: 45px;	
+	margin-left: 10px;
+	width: 886px;
+	height: 140px;	
+	border-bottom: 10px solid #0067ac;
+
+}
+.honor .honor-row1 {
+	margin-left: 90px;
+	width: 700px;
+	height: 135px;
+	border-bottom: 5px solid #0067ac;
+}
+.honor .honor-row1 img {
+	width: 198px;
+	height: 136px;
+	overflow: hidden;
+	margin-left: 13px;
+}

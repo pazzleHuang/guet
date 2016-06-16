@@ -1,0 +1,19 @@
+/*2015-05-06*/
+/*news.html*/
+
+* { padding: 0; margin: 0; }
+body { text-align: center; }
+
+.header { width: 1200px; height: 100px; background: #09f; }
+.newsContent { width: 1200px; height: 600px; background: #eee; margin-top: 15px; }
+ .col-md-9 { 1background-color: #09f; }
+#leftbar { height: 300px; }
+#leftbar ul { list-style-type: none; }
+#leftbar ul li { margin-bottom: 10px; }
+#leftbar ul li a { display: block; width: 200px; height: 50px; line-height: 50px; background: #66f; color: #fff; font-weight: bold; 	 }
+
+#mainContain { height: 300px; text-align: left; }
+#mainContain span.l { float: left; height: 40px; }
+#mainContain span.title { width: 450px; 1background: #ccc; }
+#mainContain span.time { width: 60px; 1background: #555; }
+

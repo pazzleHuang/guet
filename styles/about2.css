@@ -1,0 +1,26 @@
+
+.main { min-height: 950px !important; }
+#content { height:970px !important; }
+#content .container { height: 950px !important; }
+
+.middle-pic { position: relative; top: 330px; left: 80px; width: 100%; height: 155px;  background-image: url(../images/about/bg2.jpg); text-indent: 0; }
+.colorNum { position: absolute; top: 0; }
+.colorNum span { float: left; line-height: 14px; margin-right: 5px;  font-weight: 700; }
+.colorNum .icon{ display: block; width: 15px; height: 15px; border-radius: 2px; background-color: #333; }
+.manger { top: 8px; left: 510px; width: 300px; }
+.manger .icon { background: #F49899; }
+.manger ul {  position: absolute; top: 35px; left: 20px; }
+.manger ul li { list-style-type: disc; }
+
+.global { top: 5px; left: 80px; width: 200px; }
+.global .icon { background: #FDB53F; }
+.global p { position: absolute; top: 20px; left: -90px; }
+
+.group { top: 100px; left: 45px; width: 300px; }
+.group .icon { background: #38A5C4; }
+.group p { position: absolute; top: 20px; }
+
+.aboutdetails { position:relative; top: 215px;  }
+.aboutdetails h4 { float: left; width: 100px;  }
+.aboutdetails p { float: left; width: 730px; margin-bottom: 20px; }
+

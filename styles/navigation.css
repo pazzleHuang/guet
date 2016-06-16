@@ -1,0 +1,9 @@
+body { overflow: hidden; }
+.main2 {  width: 1200px; height: 500px;  text-align: left; }
+.nav2 { margin-top: 50px; margin-left: 240px; width: 900px; height: 400px;  }
+.sub1 { position: relative; }
+.sub1 li { float: left; margin-left: 50px; }
+.sub1 a { font-size: 16px; font-weight: 700; color: #333; }
+.sub1 dl  { margin-top: 20px; }
+.sub1 dl a { font-weight: normal; font-size: 14px; }
+.sub1 dl a:hover { text-decoration: underline; color: #1D78B5; }

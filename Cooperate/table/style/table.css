@@ -1,0 +1,78 @@
+/*table.css*/
+/*通用*/
+body {
+	font: normal 14px/24px SimSun, "Microsoft YaHei",arial,sans-serif;
+	text-align: center;
+	color: #333;
+	background-color: #f6f6f6;
+	overflow: hidden;
+}
+* {
+	padding: 0; margin: 0;
+}
+img {
+	border: none;
+}
+ul,
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none; 
+	color: #333;
+}
+input { margin: 0; padding: 0; vertical-align: middle; }
+.clear {  clear: both; float: none; height: 0; overflow: hidden;  }
+
+/*头部*/
+.header { width: 100%; height: 80px; background-color: #fff; border-top: 4px solid #1D78B5; }
+.header-box { margin: 0 auto; width: 1200px; height: 80px; 1background-color: #eef; }
+.header-box h3 { float: left; height: 80px; line-height: 80px; font-size: 30px; font-family: "Microsoft YaHei"; color: #1D78B5; }
+.header-box ul { float: right; margin-top: 7px; }
+.header-box ul li { float: left; }
+.header-box li a { display: block; width: 100px; height: 70px; line-height: 70px; font-weight: 700; color: #333;  }
+.header-box li a.navclick { background-color: #fff; border-bottom: 2px solid #C33A3A; color: #C33A3A; }
+
+/*主体*/
+.main-box { background:#ff0000 url(../bg.jpg) repeat-x fixed center; height: 560px; }
+.main { margin: 0 auto; width: 1200px; height: 400px; 	}
+.main .title { position: relative; width: 100%; height: 100px; border-bottom: 4px solid #C33A3A; }
+.main .title h3 { position: absolute; top: 75px; left: 480px; font-size: 24px; width: 160px; height: 45px; line-height: 45px; text-align: center; background-color:#F9B103; color: #fff; border-left: 5px solid #C33A3A; border-right: 5px solid #C33A3A; }
+.main ul { margin-left: 150px; }
+.main li { float: left; margin-left: 100px; margin-top: 80px; }
+.main li a { display: block; width: 140px; height: 140px; line-height: 140px; color: #fff; border-radius: 70px; background-color: #C33A3A; }
+.main li a:hover { color: #fff; background-color: #e85959; }
+
+
+/*表单申请页面*/
+
+.table { margin: 0px 0 25px 100px; width: 1000px; 1background-color: #eee; }
+caption { height: 60px; line-height: 60px; font-size: 24px; }
+.header1 { padding-bottom: 100px; } 
+.header1 td { height: 50px !important; font-weight: 700; color: #fff;  background-color: #4BC4CF !important; border: none !important; }
+.table tr {  height: 45px; }
+.table td {  height: 40px; border:1px solid #fff; border-left: 0; }
+.table td:nth-child(1) { border-left:1px solid #fff; }
+.table td:nth-child(odd) {  background-color: #eee; border-left: 5px solid #999; }
+.table td input { height: 35px; width: 190px; }
+.table td span { color: #C33A3A; }
+#submit { border: 0; width: 150px; height: 45px; background-color: #1D78B5; font-weight: 700; color: #fff; border-radius: 2px; }
+
+.userleft, .userright { margin-top: 40px; }
+#user h3 { width: 180px; border-left: 5px solid #333; margin-bottom: 60px; text-align: left; padding-left: 10px; }
+
+/*用户信息页*/
+
+.userleft { float: left; width: 400px; height: 400px; }
+#user p { float: left; }
+#user span { float: left; width: 80px; line-height: 40px; display: block; text-align: right; }
+#user input { height: 40px; width: 200px; margin-bottom: 10px;  }
+
+
+#user .userright { float: left; width: 400px; }
+
+
+
+
+
+

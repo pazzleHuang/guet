@@ -1,0 +1,110 @@
+
+/*第二张*/
+.num2 ul {
+	float: left;
+	margin-left: 65px;
+	margin-top: 38px;
+}
+.num2 ul li {
+	margin-bottom: 15px;
+}
+.num2 li a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 40px;
+	background-color: #29AAE3;
+	color: #eef;
+	font-weight: 700;
+}
+.num2 .tab {
+	height: 400px;
+	font-family: "Microsoft YaHei";
+
+}
+.num2 li a:hover  {
+	background: #BC2021;
+	color: #fff;
+} 
+.num2 li.numclick a {
+	background-color: #BC2021;
+	color: #fff;
+}
+.tab table {
+	float: right;
+	margin-top: 35px;
+	margin-right: 130px;
+
+}
+.tab table tbody {
+	display: none;
+}
+.tab table th {
+	border: none;
+	width: 90px;
+	height: 40px;
+	background-color: #BC2021;
+	color: #fff;
+}
+.tab table th:nth-child(2) {
+	width: 180px;
+}
+.tab table th:nth-child(4) {
+	width: 400px;
+}
+.tab table td{
+	height: 24px;
+	background: #eef;
+	color: #333;
+	font-size: 12px;
+}
+.tab table td:nth-child(odd) { background-color: #f6f6f6; }
+/*=====================================招聘流程 start=====================================*/
+
+
+
+
+/*=====================================宣讲日期 start=====================================*/
+.num4 { background-color: #D5E7F5; font-family: "Microsoft YaHei"; text-align: center; }
+.num4 ul { margin-left: 300px; width: 620px; height: 130px;  margin-top: 55px; }
+.num4 ul li { float: left;  }
+.num4 ul li.middle { margin: 0 200px; }
+.num4 li h1 { height: 45px;  }
+.num4 li.schoolclick { color: #F4C60E; }
+
+.num4 .now { position: absolute; top: -20px; left: 310px; width: 0; height: 0; border-bottom: 20px solid #fff; border-left: 20px solid transparent; border-right: 20px solid transparent; }
+.num4 .hiretext { display: none; position: relative;  margin-top: 35px; padding-top: 20px; min-width: 700px; width: auto; height: 180px; text-align: center; background-color: #fff; }
+.school { float: left; width: 330px; height: 90px; background: #FAF7F9; margin: 35px; }
+.school img { float: left; margin-right: 10px; }
+.shooltext { float: right; text-align: left; }
+
+/*=====================================公司福利 start=====================================*/
+#pic5 .num5 { margin-left: 400px; margin-top: 85px;  }
+#pic5 p { text-align: left; font-family: "Microsoft YaHei"; }
+
+/*=====================================人文风采 start=====================================*/
+.num6 { background-color: #f9dc6a; }
+.num6 ul { width: 800px; margin-left: 150px; margin-top: 35px; }
+.num6 ul li { float: left; margin-left: 45px; padding-bottom: 60px; display: block; width: 150px; height: 150px; border-radius: 75px; }
+.num6 ul li img { width: 150px; height: 150px; border-radius: 75px;  }
+
+/*=====================================问与答 start=====================================*/
+.num7 h1 { height: 100px; line-height: 100px; font-size: 72px; color: #B43E3E; font-family: "Microsoft YaHei"; }
+.num7 h1 span { color: #3F67A2;}
+.num7 .qnalist { width: 900px; text-align: left; margin-left: 150px; margin-top: 25px; }
+.num7 .qnalist h5 { display: block; margin-bottom: 3px; height: 28px; line-height: 28px; background-color: #eee; cursor: pointer; }
+.num7 .qnalist p { display: none; font-size: 12px; margin-bottom: 15px; margin-top: 10px; }
+.num7 .qnalist p span { font-weight: 700; }
+.num7 .up { float: left; margin: 10px 12px 0; width: 0; height: 0; border-top: 10px solid #BF3542; border-left: 8px solid transparent; border-right: 8px solid transparent }
+
+
+
+
+
+
+
+
+
+
+

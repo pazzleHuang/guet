@@ -1,0 +1,10 @@
+/*formEdit.css*/
+.formEdit { width: 960px; margin-top: 25px;}
+.formEdit .newsgroup1 { float: left; margin-left: 200px; height: 50px; width: 400px; }
+.formEdit .newsgroup1 label { width: 80px; text-align: right; }
+.formEdit .newsgroup1 input { height: 45px; width: 300px; }
+#userEdit { margin-left: 85px; margin-top: 15px; width: 160px; background-color: #5CA730; color: #fff; font-weight: 700; font-size: 14px; border-radius: 2px; border: none; }
+
+.newsgroup2 { float: left; width: 320px; height: 50px; }
+.formEdit .newsgroup2 label { width: 110px; text-align: right;  line-height: 50px;}
+.formEdit .newsgroup2 input { height: 45px; width: 200px; }

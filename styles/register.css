@@ -1,0 +1,48 @@
+
+/*register.html*/
+* { padding: 0; margin: 0; }
+body { 
+	background-image: url(../images/register.jpg); 
+	font: normal 14px/24px "Microsoft YaHei",arial,sans-serif;
+	text-align: center;
+	color: #333;
+}
+input {
+
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+.l-box { position: relative; left: 24%; top: 100px; width: 680px; height: 500px; background-color: #fff; }
+.header { height: 65px; line-height: 65px;  }
+.header img { float: left; }
+.header span { float: right; margin-right: 10px; }
+.header span a { color: #555; text-decoration: none; }
+.regis a { color: #0067AC !important; font-weight: 700; }
+.header span a:hover { color: #0067AC; text-decoration: underline; }
+
+
+.l-box .title { height: 55px; line-height: 55px; background-color: #009AE3; border-radius: 5px; color: #fff; }
+.l-box .title h3 { margin-left: 20px;  }
+
+#register { margin-top: 35px;  margin-left: 105px; }
+#register p { width: 550px; height: 40px;  }
+#register p span { float: left; display: block; width: 80px; height: 38px; line-height: 39px; text-align: right; background-color: #ddd; border-bottom: 1px solid #999; border-left: 1px solid #999;  }
+#register p input { float: left; padding-left: 6px; width: 260px; height: 38px; border: 1px solid #999; border-top: none;   }
+#register #regname { border-top: 1px solid #999; }
+
+#bordertop { border-top: 1px solid #999; }
+/*#register .borderlast { border-bottom: 1px solid #ddd; }*/
+/*提醒信息*/
+#register .reginfo	{ width: 170px; margin-left: 8px; background-color: #eef; text-align: left; font-size: 12px; border: none; }
+
+#register .iden { width: 360px; height: 40px; margin-top: 12px; }
+#register .iden p { float: left; width: 550px;   }
+#register .iden p span { border-top: 1px solid #999; }
+#register .iden p .idenspan { border-top: none !important; }
+#register #regide { width: 140px; border-top: 1px solid #999; }
+.iden img { float: left; margin-left: 20px; width: 100px; height: 38px; border: 1px solid #eee; line-height: 40px; }
+
+
+#regbtn { float: left; margin-top: 20px; margin-left: 45px; width: 300px; height: 45px; font-weight: 700; color: #fff; background-color: #7DD942; border: none; font-size: 16px; border-radius: 2px; }
+/*#regbtn:hover { background-color:  }*/

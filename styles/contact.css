@@ -1,0 +1,52 @@
+/*contact.css*/
+/*==========================================================*/
+/*联系我们页面*/
+.contact {
+	width: 1200px;
+	height: 600px;
+}
+.contact .headoffice {        
+	width: 250px !important;
+}
+
+#content { height: 600px !important; }
+#content .container { height: 900px !important; }
+.contact-info-1 { float: left; 	margin-top: 65px; margin-left: 45px;  width: 566px; height: 490px; 1background-color: #333;}
+/*地图*/
+.map-cont { float: left; margin-left: 25px; margin-top: 30px; width: 560px;height: 500px; position: relative; }
+.map-cont h3 { height: 45px;  text-align: left; color: #c33a3a;  }
+.map-cont .positonIcon { 
+	position: absolute; 
+	top: 0px; 
+	height: 0; 
+	width: 0; 
+	border-top: 25px solid #F9B103; 
+	border-left: 20px solid transparent; 
+	border-right: 20px solid transparent; 
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+}
+.map-cont .title { margin-left: 30px; line-height: 20px; }
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#dituContent { width:560px;height:380px;border:#ccc solid 1px; }
+/*联系方式*/
+.contact .context {
+	float: left;
+	margin-left: 10px;
+	width: 275px;
+	height: 215px;
+	text-align: left;
+	1background-color: #3e3;
+}
+.context h3 {
+	height: 35px;
+	color: #c33a3a;
+}
+.context p {
+	line-height: 28px;
+	font-family: "Microsoft YaHei" !important;
+}
+
+

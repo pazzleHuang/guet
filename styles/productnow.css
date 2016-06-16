@@ -1,0 +1,28 @@
+/*productnow.css*/
+body { overflow: hidden;  }
+.pro-box { padding: 0 20px; width: 1400px; height: 600px; overflow: hidden; background-image: url(../images/11_05.jpg); }
+#place { position: relative; top: 0; left: 30px; width: 2880px; height: 560px; }
+.wrap { position: absolute; top: 50px; height: 480px; }
+.wrap1 { width: 960px; }
+.wrap2 { left: 1060px; }
+.wrap3 { left: 2120px; }
+.thumb { position: absolute; background: #fff; overflow: hidden; }
+
+.thumb1 { width: 210px; height: 214px; }
+.thumb2 { left: 220px; width: 290px; height: 214px; }
+.thumb3 { left: 520px; width: 440px; height: 214px; }
+.thumb4 { top: 224px; width: 328px; height: 160px; }
+.thumb5 { top: 224px; left: 338px; width: 622px; height: 30px; }
+.thumb6 { top: 394px; width: 328px; height: 86px; }
+.thumb7 { top: 260px; left: 338px; width: 300px; height: 216px; }
+.thumb8 { top: 260px; left: 648px; width: 312px; height: 216px; }
+.thumb:hover { border: 1px solid #F9B103; }
+.thumb5:hover, .thumb6:hover { border: none; }
+
+.button { position: absolute; top: 50px;  width: 50px; height: 30px; }
+#button1to2, #button2to1 { left: 980px; }
+#button2to3, #button3to2 { left: 2040px; }
+#button1to2, #button2to3 { background:url(../images/products/arrow.png) center center;}
+#button2to1, #button3to2 { background:url(../images/products/arrow-back.png) center center; display:none; }
+#button1to2:hover, #button2to3:hover { background:url(../images/products/arrow-hover.png) center center; }
+#button2to1:hover, #button3to2:hover { background:url(../images/products/arrow-back-hover.png) center center; }

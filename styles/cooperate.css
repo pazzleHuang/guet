@@ -1,0 +1,10 @@
+/*cooperate.css*/
+
+#content { height: 600px !important; }
+#content .container { height: 550px !important; }
+
+.company1 { margin: 10px 30px 35px; padding-bottom: 10px; width: 820px; height: 100px;text-indent: 0;  border-bottom: 1px solid #ddd; }
+.company1 img { float: left; margin-right: 30px; }
+.company1 h3 { height: 35px; }
+.company1 h3 a:hover { text-decoration: underline; }
+.company1 p {  width: 810px; }

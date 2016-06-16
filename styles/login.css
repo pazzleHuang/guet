@@ -1,0 +1,54 @@
+/*login.html*/
+
+* { padding: 0; margin: 0; }
+body { 
+	background-image: url(../images/index.jpg); 
+	font: normal 14px/24px "Microsoft YaHei",arial,sans-serif;
+	text-align: center;
+	color: #333;
+}
+input {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+.login-box { position: relative; left: 24%; top: 100px; width: 680px; height: 440px; background-color: #fff; }
+.header { height: 65px; line-height: 65px;  }
+.header img { float: left; }
+.header span { float: right; margin-right: 10px; }
+.header span a { color: #555; text-decoration: none; }
+.regis a { color: #0067AC !important; font-weight: 700; }
+.header span a:hover { color: #0067AC; text-decoration: underline; }
+
+.login-box .title { height: 55px; line-height: 55px; background-color: #009AE3; border-radius: 5px; color: #fff; }
+.login-box .title h3 { margin-left: 20px;  }
+
+#login { margin-top: 35px;  margin-left: 150px; }
+#login .loginInfo  { width: 300px;  }
+#login p { width: 500px; height: 40px; }
+#login p span { float: left; display: block; width: 70px; height: 40px; line-height: 40px; text-align: right; background-color: #ddd;  }
+#login p input { float: left; padding-left: 6px; width: 223px; height: 38px;  border:  1px solid #ccc;  }
+#borderbottom {  border-bottom: 1px solid #999; height: 39px !important; }
+#login #logname { border-bottom: 0; }
+
+#login .border2  { width: 300px; font-size: 12px; }
+#login .border2 label { float: left; width: 130px; line-height: 36px; color: #999; }
+#login .border2 input{ float: left; width: 16px;  }
+#login .border2 span { float: right; color: #0067AC; background-color: #fff; cursor: pointer; }
+#login .border2 span:hover { text-decoration: underline;  }
+/*提醒信息*/
+#login .log { width: 170px; font-size: 12px; background-color: #fff; text-align: left; margin-left: 8px; }
+
+#login .addinfo {  background-color: #fff;  }
+
+/*验证码*/
+#login .iden { width: 400px; height: 40px; margin-top: 12px; }
+#login .iden p { float: left; width: 490px;  }
+#login .iden p input{ float: left; width: 103px; }
+.iden img { float: left; margin-left: 10px; width: 100px; height: 40px; border: 1px solid #eee; line-height: 40px; }
+
+
+#login-sub { float: left; margin-top: 20px; width: 300px; height: 45px; font-weight: 700; color: #fff; background-color: #7DD942; border: none; font-size: 16px; border-radius: 2px; }
+
+
+

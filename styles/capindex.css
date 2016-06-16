@@ -1,0 +1,138 @@
+/*index.html*/
+
+body {
+	font: normal 14px/24px SimSun, "Microsoft YaHei",arial,sans-serif;
+	text-align: center;
+	color: #333;
+	background: #fff;
+}
+* {
+	padding: 0; margin: 0;
+}
+img {
+	border: none;
+}
+ul,
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;	
+	z-index:100000;
+	_position:absolute;
+	_top:expression(eval(document.documentElement.scrollTop));
+	width: 100%;
+	height: 143px;
+	overflow: hidden;
+	background-color: #fff;
+}
+#logo {		
+	position: relative;
+	top: 20px;
+	height: 90px;
+}
+#nav {	
+	z-index: 100;
+	width: 100%; 
+	height: 50px;	
+	background-color: #fff;
+	border-top: 2px solid #0067AC;
+	border-bottom: 1px solid #999;
+}
+#nav .width1 {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav .sidebar {
+	float: left;
+	width: 220px;
+	height: 55px;
+	background-image: url(../images/cap_07.jpg);
+}
+#nav .leftNavFont {
+	font-family: "Microsoft YaHei" !important;
+	line-height: 50px;
+	color: #fff;
+}
+#nav ul {
+	margin-left: 268px;
+	height: 50px;
+	overflow: hidden;
+	border-left: 1px solid #999;
+}
+#nav ul li { 
+	float: left;
+	background-image: url(../images/cap_09.jpg);
+	background-position: 0 0;
+	border-right: 1px solid #ccc;
+}
+#nav li a {	
+	display: block;
+	width: 105px;
+	height: 51px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 700;
+	color: #115481;	
+}
+#nav li.navclick a {
+	background-color: #00A0EA;
+}
+
+
+.box {
+	position: relative;
+	top: 140px;
+	min-height: 490px;
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;	
+}
+.pic {
+	position: absolute;
+	top: -500px;
+	height: 500px;
+	width: 100%;
+	background-color: #fff;	
+}
+#pic1 {	
+	top: 0;
+	background-image: url(../images/picture01.jpg);
+}
+#pic2 {
+	
+}
+#pic3 {
+	background-image: url(../images/capture/3bg.jpg);
+}
+#pic4 {
+	background-color: #D5E7F5;
+}
+#pic5 {
+	background-image: url(../images/capture/5bg.jpg);
+}
+#pic6 {
+	background-color: #f9dc6a;
+}
+#pic7 {
+	background-image: url(../images/picture6.jpg);
+}
+.num {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 1200px;
+	height: 480px;
+	background-color: #fff;
+}
+
+.audio { position: absolute; top:30px; right: 0; z-index: 999; }
+
+#myCanvas { z-index: 9999; }

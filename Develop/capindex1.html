@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>校园招聘首页</title>
+	<link rel="stylesheet" media="all" type="text/css" href="../styles/capindex.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../styles/classify.css"> -->
+</head>
+<body>
+	<!-- 2015-05-13 -->
+	<div id="header">
+		<div id="logo" class="width1 height1"><a href="../index.php"><img src="../images/logo.png" alt="logo" /></a></div>
+	<div class="audio">
+		<audio preload="auto" autoplay="autoplay" controls="controls" loop="loop">
+				<source src="../audio/song.mp3">
+				<source src="../audio/song.ogg">
+					你的浏览器不支持播放音乐
+		</audio>
+	</div>
+		<div id="nav">
+			<div class="width1 height2">
+				<div class="sidebar leftNavFont"><h2>2016年校园招聘</h2></div>
+				<ul>
+					<li><a href="#首页">首页</a></li>
+					<li><a href="#在招职位">在招职位</a></li>
+					<li><a href="#招聘流程">招聘流程</a></li>
+					<li><a href="#宣讲日期">宣讲日期</a></li>
+					<li><a href="#公司福利">公司福利</a></li>
+					<li><a href="#人文风采">人文风采</a></li>			
+					<li><a href="#问与答">问与答</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="box">
+
+		<!-- 在招职位 start -->
+		<div id="pic2"  class="pic">
+			<div class="num2 num">
+				<ul>
+					<li><a href="#">研发类</a></li>
+					<li><a href="#">工程类</a></li>
+					<li><a href="#">营销类</a></li>
+				</ul>
+				<div class="tab-menu">
+					<div class="tab">
+						<table>
+							<thead>
+								<tr>
+									<th>专业方向</th>
+									<th>岗位名称</th>
+									<th>学历</th>
+									<th>专业</th>
+									<th>需求人数</th>
+								</tr>
+							</thead>
+
+							<tbody class="tab2">
+								<?php
+									include('conn/conn.php');
+
+									//搜索功能：
+									if(!empty($_GET['keys'])){
+										$w = "`title` LIKE '%".$_GET['keys']."%'";
+									}
+									else{
+										$w = 1;
+									}							
+
+									$sql = "SELECT * FROM `job`";
+									$query = mysql_query($sql);
+									print_r($sql);
+									echo "$sql";
+									while($rs = mysql_fetch_array($query)){
+								?>
+								<tr>
+									<td><?php echo $rs['id'];?></td>
+									<td><?php echo $rs['position'];?></td>
+									<td><?php echo $rs['xueli'];?></td>
+									<td><?php echo $rs['zhuanye'];?></td>
+									<td><?php echo $rs['num'];?></td>
+								</tr>
+								<?php
+								}
+								?>
+							</tbody>
+
+						
+							<tbody class="tab2">
+								<?php
+							include('conn/conn.php');
+
+							//搜索功能：
+							if(!empty($_GET['keys'])){
+								$w = "`title` LIKE '%".$_GET['keys']."%'";
+							}
+							else{
+								$w = 1;
+							}							
+
+							$sql = "SELECT * FROM `new3` WHERE $w ORDER BY id DESC";
+							$query = mysql_query($sql);
+							while($rs = mysql_fetch_array($query)){
+						?>
+						<p><a><?php echo $rs['title'] ?><span><?php echo $rs['dates'] ?></span></a></p>
+						<?php
+						}
+						?>
+								<tr>
+									<td><?php echo $rs['title']; ?></td>
+									<td>临床应用工程师</td>
+									<td>本科及以上</td>
+									<td>临床医学、医学检验等相关专业</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>硬件类</td>
+									<td>电子测试工程师</td>
+									<td>本科及以上</td>
+									<td>电子、自动化等相关专业 </td>
+									<td>1</td>
+								</tr>
+							</tbody>
+							<tbody class="tab3">
+								<tr>
+									<td>销售类</td>
+									<td>驻外销售代表</td>
+									<td>本科及以上</td>
+									<td>医学检验或医学类相关专业</td>
+									<td>5</td>
+								</tr>
+								<tr>
+									<td>销售类</td>
+									<td>驻外销售代表</td>
+									<td>本科及以上</td>
+									<td>医学检验或医学类相关专业</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>销售类</td>
+									<td>商务专员</td>
+									<td>本科及以上</td>
+									<td>商务英语、国际贸易等相关专业 </td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>销售类</td>
+									<td>区域销售经理 </td>
+									<td>大专及以上</td>
+									<td>医学检验或医学类相关专业</td>
+									<td>5</td>
+								</tr>
+								<tr>
+									<td>售后类</td>
+									<td>技术支持与服务工程师（海外） </td>
+									<td>大专及以上</td>
+									<td>医学检验、生物医学工程或电子类相关专业</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>售后类</td>
+									<td>技术支持与服务工程师（国内）</td>
+									<td>本科及以上</td>
+									<td>医学检验、生物医学工程或电子类相关专业</td>
+									<td>5</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!-- 招聘流程 end -->
+		<div id="pic3" class="pic">
+
+
+		</div>
+		<!-- 宣讲日期 -->
+		
+	</div>
+	<script type="text/javascript" src="../script/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../script/jquery-mousewheel.js"></script>
+	<script type="text/javascript" src="../script/jquery.bgckgroundXY.js"></script>
+	<script type="text/javascript" src="../script/capindex.js"></script>
+</body>
+</html>
